@@ -1,0 +1,32 @@
+@import '../../styles/Partials.scss';
+
+.nav {
+    margin-top: 0.2rem;
+    padding: 0 3rem;
+    background-color: #fafafa;
+    display: flex;
+    
+
+
+    &__movie {
+        margin: 0.2rem 1rem;
+        
+    }
+
+    &__button {
+        padding:0.75rem 1.5rem; 
+        font-size: 1rem;
+        border: none;
+        outline: none;
+        background-color: $alabaster;
+        color: $secondaryBlue;
+        font-weight: bold;
+
+        &:hover {
+            border: 1px $primaryYellow solid;
+            background-color: $primaryYellow;
+            color: $secondaryGreen;
+            border-radius: 4px;
+        }
+    }
+}

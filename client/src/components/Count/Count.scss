@@ -1,0 +1,9 @@
+@import '../../styles/Partials.scss';
+
+.count {
+    &__line{
+        color: $secondaryGreen;
+        margin-bottom: 0.5rem;
+    }
+
+}

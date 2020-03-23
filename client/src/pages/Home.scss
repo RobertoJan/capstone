@@ -1,0 +1,26 @@
+@import '../styles/Partials.scss';
+
+.home {
+
+    padding: 1rem 3rem;
+    background-color: $primaryBlue;
+
+    &__featured,
+    &__others,
+    &__romance,
+    &__shounen,
+    &__sliceOfLife,
+    &__comedy {
+        display: flex;
+        flex-direction: row;
+        flex-wrap:nowrap;
+        overflow-x:auto;
+        overflow-y:hidden;
+        white-space:nowrap;
+    } 
+
+    &__label {
+        color: $secondaryBlue;
+        margin-top: 1rem;
+    }
+}

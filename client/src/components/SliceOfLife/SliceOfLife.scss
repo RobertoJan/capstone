@@ -1,0 +1,22 @@
+@import '../../styles/Partials.scss';
+
+.sliceOfLife {
+    position: relative;
+
+    &__image {
+        height: 20rem;
+        width: 15rem;
+    }
+
+    &__title {
+        font-size: 0.7rem;
+        color: white;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        text-overflow: ellipsis;
+        white-space: normal;
+        overflow: hidden;
+    }
+}

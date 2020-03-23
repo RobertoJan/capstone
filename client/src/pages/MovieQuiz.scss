@@ -1,0 +1,25 @@
+@import '../styles/Partials.scss';
+
+.movieQuiz {
+    
+    margin: 1rem 7rem;
+
+    &__title {
+        margin: 1rem 0;
+        color: $secondaryBlue;
+    }
+
+    &__movies {
+        display: flex;
+        flex-direction: row;
+        flex-wrap:nowrap;
+        overflow-x:auto;
+        overflow-y:hidden;
+        white-space:nowrap;
+    } 
+
+    &__label {
+        color: $secondaryBlue;
+        margin-top: 1rem;
+    }
+}

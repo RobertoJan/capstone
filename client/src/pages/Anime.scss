@@ -1,0 +1,45 @@
+@import '../styles/Partials.scss';
+
+.anime {
+    padding: 2rem 3rem;
+    background-color: #fafafa;
+
+    &__infoContainer {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1rem;
+    }
+
+    &__miscInfoContainer {
+        margin: 0 1rem;
+        color: $tertiaryBlue;
+    }
+
+    &__infoDescription {
+        line-height: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        color: $secondaryBlue;
+    }
+
+    &__synopsis {
+        margin-top: 1rem;
+    }
+
+    &__preview {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__title {
+        color: $secondaryBlue;
+    }
+
+    &__detail {
+        padding-bottom: 0.5rem;
+    }
+}
+
+span {
+    font-weight: bold;
+}
